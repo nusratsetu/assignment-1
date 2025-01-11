@@ -298,4 +298,52 @@ div .done-btn{
   border: none;
 }
 
+.newsletter{
+  background-color: #C6E4D6;
+  text-align: center;
+  margin: 35px 0;
+  height: 300px;
+  border-radius: 16px;
+  
+}
 
+.newsletter p{
+  padding: 20px;
+}
+
+.subscribe-text{
+padding-top: 40px;
+
+}
+.subscribe-text h1{
+  padding-bottom: 10px;
+}
+
+.subscribe-text .paragraph{
+  padding-bottom: 16px;
+}
+
+form{
+  display: flex;
+  width: fit-content;
+
+}
+
+form input{
+  padding: 17px;
+  border: none;
+  border-radius: 9px  0 0 9px;
+  width: 600px;
+  
+}
+form input::placeholder{
+  color: #D5D6D8;
+}
+
+form button{
+  background-color: #006A50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 9px 9px 0;
+}
